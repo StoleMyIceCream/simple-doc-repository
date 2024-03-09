@@ -17,7 +17,7 @@ Your Project Name is a REST API designed to receive and save files. It provides 
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.8
 - Django
 - Django Rest Framework
 - Docker
