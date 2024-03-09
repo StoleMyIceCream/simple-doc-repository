@@ -1,0 +1,12 @@
+site_name: simple document repository
+site_description: using django rest framework and postgres
+repo_url: https://github.com/StoleMyIceCream/simple_document_repository
+copyright: Copyright &copy; 2020, <a href="https://github.com/StoleMyIceCream">StoleMyIceCream</a>.
+dev_addr: 0.0.0.0:8001
+
+nav:
+  - Home: 'index.md'
+  - API:
+    - Authentication: 'api/authentication.md'
+    - Users: 'api/users.md'
+    - Files: 'api/files.md'
