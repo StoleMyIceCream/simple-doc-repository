@@ -34,8 +34,7 @@ jobs:
 
       - name: Run Tests
         run: |
-          # Add your test commands here
-          docker-compose exec web python manage.py test
+          docker-compose exec -T web python manage.py test
 
       - name: Deploy to Production
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
